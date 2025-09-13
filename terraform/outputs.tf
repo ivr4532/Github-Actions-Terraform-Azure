@@ -1,5 +1,4 @@
 output "rg_name" {
-  value = {
-    appname = module.RG.resourcegroup_name.rg_name
-  }
+  description = "RG Name"
+  value = module.RG.resourcegroup_name.rg_name
 }
